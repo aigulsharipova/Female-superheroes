@@ -1,4 +1,4 @@
-# Female Marvel Superhero 🦸🏻‍♀️
+# Female Superhero 🦸🏻‍♀️
 
 A simple web app that displays female Marvel superhero.
 ___
