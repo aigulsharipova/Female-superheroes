@@ -1,6 +1,6 @@
 # Female Superhero 🦸🏻‍♀️
 
-A simple web app that displays female Marvel superhero.
+A simple web app that displays female superhero.
 ___
 
 ## ⚙️ Technologies Used:
