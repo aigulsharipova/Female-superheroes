@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script defer src="./js/script.js"></script>
+  <title>Superhero</title>
+</head>
+
+<body>
+  <div class="preloader">
+    <img src="./img/preloader.gif" alt="preloader">
+  </div>
+  <header>
+    <h1>Female Superheroes</h1>
+  </header>
+  <main>
+    <section id="collection">
+      <article class="card" data-id="157">
+        <h3>CAPTAIN MARVEL</h3>
+        <img src="./img/captainmarvel.jpg">
+      </article>
+      <article class="card" data-id="107">
+        <h3>BLACK WIDOW</h3>
+        <img src="./img/black-widow.jpg">
+      </article>
+      <article class="card" data-id="275">
+        <h3>GAMORA</h3>
+        <img src="img/gamora.jpg">
+      </article>
+      <article class="card" data-id="720">
+        <h3>WONDER WOMAN</h3>
+        <img src="./img/wonderwoman.jpeg">
+      </article>
+      <article class="card" data-id="708">
+        <h3>WASP</h3>
+        <img src="./img/wasp.jpg">
+      </article>
+      <article class="card" data-id="638">
+        <h3>STORM</h3>
+        <img src="./img/storm.jpg">
+      </article>
+      <article class="card" data-id="579">
+        <h3>SCARLET WITCH</h3>
+        <img src="./img/Scarlet_Witch.jpg">
+      </article>
+      <article class="card" data-id="165">
+        <h3>CATWOMAN</h3>
+        <img src="./img/catwoman.jpg">
+      </article>
+      <article class="card" data-id="238">
+        <h3>ELECTRA</h3>
+        <img src="./img/Jennifer-Garner-title-character-Elektra-Rob-Bowman.jpg">
+      </article>
+    </section>
+  </main>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title card_name" id="exampleModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="card-content">
+            <div class="card_img">
+              <img id="modal_img" src="" alt="">
+            </div>
+            <p class="card_alter"></p>
+            <p class="card_appearance"></p>
+            <p class="card_status"></p>
+          </div>
+          <div class="card-powers">
+            <p class="card_combat">Combat: <span></span></p>
+            <p class="card_durability">Durabolity:<span></span></p>
+            <p class="card_intelligence">Intelligence: <span></span></p>
+            <p class="card_power">Power: <span></span></p>
+            <p class="card_speed">Speed: <span></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <p>Copyright © All Rights Reserved 2021 Superheroes</p>
+  </footer>
+</body>
+
+</html>
