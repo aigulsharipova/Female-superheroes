@@ -20,4 +20,4 @@ ___
 ## 🏃‍♀️ Getting started
 [Click](#) here to get started and see the app online! 🖥
 ___
-## 🔧 Future Enhancements
+
